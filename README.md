@@ -38,6 +38,13 @@ Then finally, give the instance all the fields (in the correct order) that it wi
 @field_bar.fields = [@text_field_one, @text_field_two, @text_field_three]
 ```
 
+You can optionally set the title for the previous / next buttons like so
+
+```ruby
+@field_bar.previous_title = " < "
+@field_bar.next_title = " > "
+```
+
 This works really well with the [TPKeyboardAvoiding](https://github.com/michaeltyson/TPKeyboardAvoiding).
 
 ## Contributing

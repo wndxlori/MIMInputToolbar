@@ -16,6 +16,18 @@ class MIMInputToolbar < UIToolbar
     self
   end
 
+  def previous_title=(title)
+    self.items[0].title = title
+  end
+
+  def next_title=(title)
+    self.items[1].title = title
+  end
+
+  def done_title=(title)
+    self.items[3].title = title
+  end
+
   def previous_field(sender)
     index = fields.index(selected_field)
     if index >= 1

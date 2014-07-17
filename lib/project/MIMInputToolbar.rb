@@ -3,6 +3,7 @@ class MIMInputToolbar < UIToolbar
 
   def init
     super
+    @fields ||= []
 
     self.items = [
       UIBarButtonItem.alloc.initWithTitle('Previous', style: UIBarButtonItemStylePlain, target: self, action: 'previous_field:'),

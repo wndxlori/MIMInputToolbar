@@ -47,8 +47,6 @@ class MIMInputToolbar < UIToolbar
     selected_field.resignFirstResponder
   end
 
-  private
-
   def selected_field
     fields.select { |f| f.isFirstResponder }.first
   end

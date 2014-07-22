@@ -2,6 +2,8 @@
 
 A very simple gem that provides the one MIMInputToolbar class which you can use as the input accessory view for your UITextFields and UITextViews.
 
+![](resources/example.gif)
+
 ## Installation
 
 Add this line to your application's Gemfile:

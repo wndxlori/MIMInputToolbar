@@ -52,6 +52,8 @@ This works really well with the [TPKeyboardAvoiding](https://github.com/michaelt
 
 ## Contributing
 
+Big thank you to [Gant Laborde](https://github.com/GantMan) and [Mark Rickert](https://github.com/markrickert) who have been pushing this forward.
+
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
